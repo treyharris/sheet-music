@@ -13,10 +13,10 @@ PartPOneVoiceOne =  \relative c {
     e8 [ f8 c8 ] | % 2
     c8 [ d8 ] _\markup{ \italic {Don’t} } _\markup{ \italic {do} }
     _\markup{ \italic {this.} } e4 f8 [ c8 ] | % 3
-    c2. _\markup{ \italic {This} } _\markup{ \italic {fine.} } | % 4
-    e2. ~ _\markup{ \italic {is} } _\markup{ \italic {So} } _\markup{
+    c2. _\markup{ \italic {This} } _\markup{ \italic {is fine.} } | % 4
+    e2. ~ _\markup{ \italic {So is} } _\markup{
         \italic {this.} } | % 5
-    e4 _\markup{ \italic {is} } c2 ~ _\markup{ \italic {Or} } _\markup{
+    e4 c2 ~ _\markup{ \italic {Or} } _\markup{
         \italic {this.} } | % 6
     c2. }
 % The score definition
