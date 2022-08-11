@@ -30,6 +30,4 @@ PartPOneVoiceOne =  \relative c {
         
         >>
     \layout {}
-    % To create MIDI output, uncomment the following line:
-    %  \midi {\tempo 4 = 100 }
     }
