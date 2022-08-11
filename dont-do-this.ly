@@ -1,4 +1,4 @@
-% One measure in 6/8 time, labeled “Do this.” Has tied eighth notes
+% One measure in 6/8 time, labeled “Don’t do this.” Has a quarter note
 % spanning beats 3-4.
 % Lilypond 2.20.0
 \version "2.20.0"
@@ -12,8 +12,8 @@ PartPOneVoiceOne =  \relative c {
     \transposition c' \clef "bass" \stopStaff \override
     Staff.StaffSymbol.line-count = #5 \startStaff \key a \minor \time
     6/8 | % 1
-    c8 [ d8 e8 ~ ] _\markup{ \italic {Do} } _\markup{ \italic {this.} }
-    e8 [ f8 c8 ] | }
+    c8 [ d8 ] _\markup{ \italic {Don’t} } _\markup{ \italic {do} }
+    _\markup{ \italic {this.} } e4 f8 [ c8 ] }
 % Score definition
 \score {
     <<
